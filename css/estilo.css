@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -233,12 +233,13 @@ nav .nav-links.open {
 .cat-1-section .col-left-section .cat-name{
     height: 4vh;
     margin-bottom: 2vh;
+    padding-top: 2vh;
     color: #407A95;
     background-color: #fff;
-    border-bottom: 1px solid #407A95;
+    border-top: 2px solid #407A95;
 }
 .cat-1-section .col-left-section .cat-name h1{
-    font-size: calc(0.5em + 0.6vw);
+    font-size: calc(0.6em + 0.6vw);
     text-transform: uppercase;
 }
 
@@ -317,12 +318,13 @@ nav .nav-links.open {
 .cat-1-section .col-right-section .cat-name{
     height: 4vh;
     margin-bottom: 2vh;
+    padding-top: 2vh;
     color: #407A95;
     background-color: #fff;
-    border-bottom: 1px solid #407A95;
+    border-top: 2px solid #407A95;
 }
 .cat-1-section .col-right-section .cat-name h1{
-    font-size: calc(0.5em + 0.6vw);
+    font-size: calc(0.6em + 0.6vw);
     margin-top:6px;
     text-transform: uppercase;
 }
@@ -382,7 +384,7 @@ nav .nav-links.open {
 }
 .cat-2-section .col-left-section,.cat-2-section .col-center-section,
 .cat-2-section .col-right-section{
-    width: 32%;
+    width: 30%;
     display: flex;
     flex-direction:column;
 }
@@ -396,13 +398,15 @@ nav .nav-links.open {
 .col-right-section .cat-name{
     height: 4vh;
     margin-bottom: 2vh;
+    padding-top: 2vh;
     color: #407A95;
     background-color: #fff;
-    border-bottom: 1px solid #407A95;
+    border-top: 2px solid #407A95;
 }
-.cat-2-section .col-left-section .cat-name h1,.cat-2-section .col-center-section .cat-name h1,
+.cat-2-section .col-left-section .cat-name h1,
+.cat-2-section .col-center-section .cat-name h1,
 .cat-2-section .col-right-section .cat-name h1{
-    font-size: calc(0.5em + 0.6vw);
+    font-size: calc(0.6em + 0.6vw);
     margin-top:6px;
     text-transform: uppercase;
 }
@@ -487,12 +491,14 @@ nav .nav-links.open {
 
 .cat-3-section  .cat-name{
     height: 4vh;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
     color: #407A95;
     background-color: #fff;
-    border-bottom: 2px solid #407A95;
+    border-top: 2px solid #407A95;
 }
 .cat-3-section  .cat-name h1{
-    font-size: calc(0.5em + 0.6vw);
+    font-size: calc(0.6em + 0.6vw);
     margin-top:6px;
     text-transform: uppercase;
 }
@@ -563,3 +569,17 @@ footer .footer-area{
 /*FIN Footer*/
 
 /*h2 #2f2f2f;*/
+
+/* zonas publicidad*/
+
+.ads{
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    height: 15vh;
+    background-color: #cfcfcf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
