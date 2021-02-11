@@ -163,7 +163,7 @@
             </div>
             <div class="col-right-section">
                 <header class="cat-name">
-                    <h1>Opinión</h1>
+                    <h1>Sociedad</h1>
                 </header>
                 <article>
                     <a href="#">
@@ -223,7 +223,7 @@
         <section class="cat-2-section">
             <div class="col-left-section">
                 <header class="cat-name">
-                    <h1>Sociedad</h1>
+                    <h1>Cultura</h1>
                 </header>
                 <article>
                     <a href="#">
@@ -277,7 +277,7 @@
             </div>
             <div class="col-center-section">
                 <header class="cat-name">
-                    <h1>Cultura</h1>
+                    <h1>Deportes</h1>
                 </header>
                 <article>
                     <a href="#">
@@ -331,7 +331,7 @@
             </div>
             <div class="col-right-section">
                 <header class="cat-name">
-                    <h1>Deportes</h1>
+                    <h1>Openión</h1>
                 </header>
                 <article>
                     <a href="#">
@@ -509,47 +509,6 @@
         </div>
     </footer>
 </body>
-<script>
-    const hamburger = document.querySelector('nav .hamburger');
-
-    const navLinks = document.querySelector('nav .nav-links');
-
-    /* hamburger.addEventListener('click',()=>{
-        navLinks.classList.toggle('open');
-     });*/
-
-    $(document).ready(function () {
-        //Para a cambiar el calendario a español
-        $.datepicker.regional['es'] = {
-            closeText: 'Cerrar',
-            prevText: '< Ant',
-            nextText: 'Sig >',
-            currentText: 'Hoy',
-            monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
-            monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
-            dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
-            dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mié', 'Juv', 'Vie', 'Sáb'],
-            dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sá'],
-            weekHeader: 'Sm',
-            dateFormat: 'dd/mm/yy',
-            firstDay: 1,
-            isRTL: false,
-            showMonthAfterYear: false,
-            yearSuffix: ''
-        };
-        $.datepicker.setDefaults($.datepicker.regional['es']);
-        //fin de configuración de calendario a español
-
-        $("#date").datepicker({ minDate: 0 }); //minDate para desactivar los días anteriores
-        $(hamburger).on("click", () => {
-            $(navLinks).toggleClass('open');
-        });
-
-        console.log($(".ads").get(1));
-    });
-
-
-
-</script>
+<script src="js/app.js"></script>
 
 </html>

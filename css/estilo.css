@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 header {
@@ -325,7 +325,6 @@ nav .nav-links.open {
 }
 .cat-1-section .col-right-section .cat-name h1{
     font-size: calc(0.6em + 0.6vw);
-    margin-top:6px;
     text-transform: uppercase;
 }
 .cat-1-section .col-right-section article .image_title {
@@ -583,3 +582,54 @@ footer .footer-area{
     align-items: center;
     display: none;
 }
+
+/*single page*/
+
+.single-main-section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.single-main-section main{
+    width: 65%;
+}
+
+.single-main-section aside{
+    width: 32%;
+    background-color: #2f2f2f;
+}
+
+
+.single-main-section main img{
+    margin: 10px 0px 10px 0px;
+}
+
+.single-main-section main .author-date-sharing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.single-main-section main .author-date-sharing .author-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.single-main-section main .author-date-sharing .author-date p{
+    margin-right: 8px;
+}
+.single-main-section main .author-date-sharing .sharing{
+    display: flex;
+    flex-direction: row;
+} 
+.single-main-section main .author-date-sharing .sharing div{
+    display: flex;
+    margin-right: 8px;
+}
+.single-main-section main p{
+    margin: 10px 0px 10px 0px;
+}
+
+
+
