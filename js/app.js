@@ -1,6 +1,6 @@
-const hamburger = document.querySelector('nav .hamburger');
+//const hamburger = document.querySelector('nav .hamburger');
 
-const navLinks = document.querySelector('nav .nav-links');
+//const navLinks = document.querySelector('nav .nav-links');
 
 /* hamburger.addEventListener('click',()=>{
     navLinks.classList.toggle('open');
@@ -8,7 +8,7 @@ const navLinks = document.querySelector('nav .nav-links');
 
 $(document).ready(function () {
     //Para a cambiar el calendario a español
-    $.datepicker.regional['es'] = {
+  /*  $.datepicker.regional['es'] = {
         closeText: 'Cerrar',
         prevText: '< Ant',
         nextText: 'Sig >',
@@ -25,15 +25,20 @@ $(document).ready(function () {
         showMonthAfterYear: false,
         yearSuffix: ''
     };
-    $.datepicker.setDefaults($.datepicker.regional['es']);
+    $.datepicker.setDefaults($.datepicker.regional['es']);*/
     //fin de configuración de calendario a español
 
-    $("#date").datepicker({ minDate: 0 }); //minDate para desactivar los días anteriores
+   // $("#date").datepicker({ minDate: 0 }); //minDate para desactivar los días anteriores
+    const hamburger = document.querySelector('nav .hamburger');
+    const navLinks = document.querySelector('nav .nav-links');
     $(hamburger).on("click", () => {
         $(navLinks).toggleClass('open');
+       console.log($(hamburger))
+       
     });
 
-    var array=[
+
+    /*var array=[
         {
                 'nombre':'Abdelaziz',
                 'apellido':'El Oua',
@@ -60,7 +65,7 @@ $(document).ready(function () {
     
 
  
-      console.log(document.images);
+      console.log(document.images);*/
 
     
 
